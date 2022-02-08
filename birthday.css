@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .div1
+  
+   {
+      
+      padding: 4%;
+      color: rgb(255, 255, 255);
+      background-color: rgb(36, 83, 185);
+  }
+  h1{
+      text-align: center;
+      font-size: 35px;
+  }
+  
+  h2,form {
+      text-align: center;
+      font-size: 22px;
+      
+  }
+  input[type=text]
+  { opacity: 0.5;
+      filter: alpha(opacity=35); 
+      width: 20%;
+      padding: 10px 20px;
+  }
+  
+  .button {
+    background-color: #426ce059; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .list
+  {
+    margin: auto;
+    width: 80%; 
+    padding: 10px; 
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;  
+  }
+  
+  td, th { 
+    padding: 8px;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #8baad8;
+  } 
